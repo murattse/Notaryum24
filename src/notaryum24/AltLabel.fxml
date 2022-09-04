@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root id="AnchorPane" prefHeight="200.0" prefWidth="200.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="altlabel" layoutX="10.0" layoutY="10.0" onMouseClicked="#altlabelclicked" onMouseEntered="#altlabelentered" onMouseExited="#altlabelexit" text="Label" textFill="#f5f6fa" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</fx:root>

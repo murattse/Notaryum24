@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.Tem.2020, 20:46:04
+    Author     : Murat
+*/
+.scroll-pane:pannable:fitToWidth .viewport{
+    -fx-background-color: #222f3e;
+    -fx-border-color: #222f3e;
+}
+.scroll-pane:fitToWidth{
+    -fx-background-color: #222f3e;
+}
+.viewport:fitToWidth .viewport{
+    -fx-background-color: #222f3e;
+}
+.tab-pane:top .tab-content-area{
+    -fx-background-color: #222f3e;
+}
+.scroll-pane:pannable:fitToHeight .viewport{
+    -fx-background-color: #222f3e;
+    -fx-border-color: #222f3e;
+}
